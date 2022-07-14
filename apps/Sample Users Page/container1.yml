@@ -3,17 +3,22 @@ type: widget
 subtype: ContainerWidget
 template:
   ordered:
-    - title: ''
-    - disabled: ''
+    - heightType: fixed
     - spinWhenChildrenAreFetching: true
     - showBorder: true
     - showDropShadow: true
+    - style:
+        ordered: []
     - backgroundColor: white
-    - scroll: false
+    - title: ''
+    - overflowType: visible
+    - disabled: ''
+style:
+  ordered: []
 position2:
   position2:
     row: 1
-    height: 4
+    height: 5
     width: 12
 tabIndex: 2
 createdAt: 2020-11-10T02:28:24.496Z

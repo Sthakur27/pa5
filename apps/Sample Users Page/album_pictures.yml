@@ -7,6 +7,7 @@ template:
     - queryRefreshTime: ''
     - paginationLimit: ''
     - body: ''
+    - lastReceivedFromResourceAt: null
     - queryDisabledMessage: ''
     - successMessage: ''
     - queryDisabled: ''
@@ -15,6 +16,7 @@ template:
     - runWhenModelUpdates: true
     - paginationPaginationField: ''
     - headers: ''
+    - showFailureToaster: true
     - paginationEnabled: false
     - query: >-
         https://jsonplaceholder.typicode.com/photos?albumId={{table2.selectedRow.data.id}}
@@ -33,6 +35,7 @@ template:
     - cookies: ''
     - metadata: null
     - triggersOnFailure: []
+    - changesetObject: ''
     - errorTransformer: >-
         // The variable 'data' allows you to reference the request's data in the
         transformer. 
@@ -42,15 +45,19 @@ template:
         return data.error
     - confirmationMessage: null
     - isFetching: false
+    - changeset: ''
     - rawData: null
     - queryTriggerDelay: '0'
+    - resourceTypeOverride: null
     - watchedParams: []
     - enableErrorTransformer: false
+    - showLatestVersionUpdatedWarning: false
     - paginationDataField: ''
     - timestamp: 0
     - importedQueryDefaults:
         ordered: []
     - enableTransformer: false
+    - showUpdateSetValueDynamicallyToggle: true
     - hideRequireConfirmation: false
     - runWhenPageLoads: false
     - transformer: >-
@@ -60,11 +67,16 @@ template:
         20)
 
         return data
+    - events: []
     - queryTimeout: '10000'
     - requireConfirmation: false
     - type: GET
+    - queryFailureConditions: ''
+    - changesetIsObject: false
     - enableCaching: false
+    - allowedGroups: []
     - bodyType: json
     - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
     - notificationDuration: ''
 createdAt: 2020-11-10T02:28:24.500Z

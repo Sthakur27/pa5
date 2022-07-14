@@ -6,9 +6,13 @@ template:
     - showCustomButton: false
     - sortMappedValue:
         ordered: []
+    - _filteredSortedRenderedDataWithTypes: null
+    - heightType: fixed
     - normalizedData: null
     - actionButtonType: runQuery
     - saveChangesDisabled: ''
+    - columnTypeProperties:
+        ordered: []
     - columnWidths:
         - object:
             id: Title
@@ -22,7 +26,9 @@ template:
         - object:
             id: id
             value: 119
+    - showSummaryFooter: false
     - actionButtonDisabled: ''
+    - disableRowSelectInteraction: false
     - columnWidthsMobile: []
     - hasNextAfterCursor: ''
     - columnTypeSpecificExtras:
@@ -39,14 +45,30 @@ template:
           - Title: blue
           - Description: green
           - Sales: orange
+    - columnFrozenAlignments:
+        ordered: []
     - allowMultiRowSelect: false
     - columnFormats:
         ordered: []
     - columnRestrictedEditing:
         ordered: []
     - showFilterButton: true
+    - _columnVisibility:
+        ordered:
+          - userId: true
+          - id: true
+          - title: true
+          - Title: true
+          - Description: true
+          - Sales: true
     - actionButtonUrl: ''
+    - _columnSummaryTypes:
+        ordered: []
     - actionButtonNewWindow: false
+    - _columnsWithLegacyBackgroundColor:
+        set: []
+    - showAddRowButton: false
+    - _unfilteredSelectedIndex: ''
     - nextBeforeCursor: ''
     - columnVisibility:
         ordered:
@@ -57,7 +79,11 @@ template:
           - Description: true
           - Sales: true
     - selectedPageIndex: '0'
+    - applyDynamicSettingsToColumnOrder: false
+    - rowColor:
+        array: []
     - actionButtonColumnName: Actions
+    - resetAfterSave: true
     - filterStackType: and
     - downloadRawData: true
     - showFetchingIndicator: true
@@ -71,36 +97,53 @@ template:
     - paginationOffset: 0
     - columnAlignment:
         ordered: []
+    - columnSummaries:
+        object: {}
     - sortedDesc: false
     - customButtonName: ''
     - columnMappersRenderAsHTML:
         ordered: []
     - actionButtonInternalUrlPath: ''
+    - showRefreshButton: true
     - pageSize: 10
     - useDynamicColumnSettings: false
+    - style:
+        ordered: []
     - selectedColumn: null
     - actionButtonPosition: left
+    - dynamicRowHeights: false
     - bulkUpdateAction: ''
     - afterCursor: ''
     - onCustomButtonPressQueryName: ''
     - changeSet:
         object: {}
     - sortedColumn: ''
+    - _columnSummaryValues:
+        ordered: []
+    - checkboxRowSelect: true
+    - _compatibilityMode: true
+    - showColumnBorders: true
+    - clearSelectionLabel: Clear selection
+    - _renderedDataWithTypes: null
     - columnAllowOverflow:
         ordered: []
     - beforeCursor: ''
     - serverPaginationType: limitOffsetBased
     - onRowSelect: ''
     - showDownloadButton: true
-    - selectedIndex: ''
+    - selectedIndex: null
     - defaultSortDescending: false
+    - _sortedDisplayedDataIndices: null
     - dynamicColumnSettings: null
     - totalRowCount: ''
     - recordUpdates:
         array: []
     - newRow: null
+    - emptyMessage: No rows found
     - columnEditable:
         ordered: []
+    - _viewerColumnSummaryTypes:
+        object: {}
     - filters:
         array: []
     - displayedDataIndices: null
@@ -109,6 +152,9 @@ template:
     - columnMappers:
         ordered: []
     - showClearSelection: false
+    - doubleClickToEdit: false
+    - overflowType: pagination
+    - _reverseSortedDisplayedDataIndices: null
     - selectedCell:
         object:
           index: null
@@ -121,17 +167,31 @@ template:
         - userId
         - id
         - title
+    - defaultSelectedRow: index
+    - freezeActionButtonColumns: false
     - sort: null
+    - _columns:
+        - Title
+        - Sales
+        - Description
+        - userId
+        - id
+        - title
     - actionButtonInternalUrlHashParams: ''
     - actionButtonInternalUrlQuery: ''
+    - sortByRawValue:
+        ordered: []
     - calculatedColumns: []
     - selectedRow:
         object:
           index: null
           data: null
     - showPaginationOnTop: false
+    - _reverseDisplayedDataIndices: null
     - nextAfterCursor: ''
     - useCompactMode: false
+style:
+  ordered: []
 position2:
   position2:
     container: container2
